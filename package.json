@@ -5,6 +5,7 @@
   "source": "src/index.js",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
+  "typings": "node_modules/@types/node/url.d.ts",
   "scripts": {
     "build": "microbundle",
     "test:browser": "karmatic",
@@ -15,6 +16,7 @@
   "author": "Janicklas Ralph",
   "license": "Apache-2.0",
   "dependencies": {
+    "@types/node": "^12.12.7",
     "querystring": "^0.2.0"
   },
   "repository": {
